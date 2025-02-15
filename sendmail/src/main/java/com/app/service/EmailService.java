@@ -1,6 +1,6 @@
-package com.app;
+package com.app.service;
 
-import org.apache.commons.text.RandomStringGenerator;
+import com.app.request.EmailRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
